@@ -3,4 +3,12 @@
 
    <xacro:include filename="robot_core.xacro" />
 
+   <xacro:include filename="Gazebo_control.xacro" />
+
+   <xacro:include filename="lidar.xacro"/>
+
+   <!-- <xacro:include filename="camera.xacro"/> -->
+
+   <!-- <xacro:include filename="dept_camera.xacro"/> -->
+
 </robot>
