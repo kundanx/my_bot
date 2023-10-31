@@ -25,6 +25,10 @@
         <color rgba="1 0 0 1 " />
     </material>
 
+    <material name="green">
+        <color rgba="0 1 0 1 " />
+    </material>
+
 
 <!-- BASE LINK -->
     <link name="base_link">
