@@ -33,8 +33,15 @@ if(BUILD_TESTING)
 endif()
 
 install(
-  DIRECTORY config description launch worlds
+  DIRECTORY config description launch worlds 
   DESTINATION share/${PROJECT_NAME}
+)
+
+install(PROGRAMS
+  scripts/serial_comm_node.py
+  scripts/publisher.py
+  scripts/static_tf.py
+  DESTINATION lib/${PROJECT_NAME}
 )
 
 ament_package()
